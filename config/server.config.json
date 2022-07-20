@@ -1,0 +1,20 @@
+{
+  "port": 5320,
+  "src": {
+    "root"    : "./src",
+    "html"    : "./src/templates",
+    "scss"    : "./src/scss",
+    "js"      : "./src/js",
+    "img"     : "./src/img",
+    "icons"   : "./src/icons",
+    "fonts"   : "./src/fonts"
+  },
+  "build": {
+    "root"    : "./build",
+    "html"    : "./build/templates",
+    "css"     : "./build/css/sef",
+    "js"      : "./build/js",
+    "img"     : "./build/img",
+    "fonts"   : "./build/fonts"
+  }
+}

@@ -8,7 +8,7 @@
     "start": "node ./server/build/index.js",
     "dev": "npx babel ./server/src/index.js --watch --out-file ./server/build/index.js | nodemon ./server/build/index.js",
     "build": "npx babel ./server/src/index.js --out-file ./server/build/index.js | webpack --mode=production --config ./config/webpack.config.js",
-    "watch": "webpack --mode=development  --config ./config/webpack.config.js -w",
+    "watch": "webpack --mode=development  --config ./config/webpack.config.js -w"
   },
   "keywords": [],
   "author": "",
